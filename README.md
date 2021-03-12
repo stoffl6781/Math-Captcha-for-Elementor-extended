@@ -22,5 +22,6 @@ BS Math Captcha for Elementor Forms is a simple plugin that add a math captcha t
 <ul>
     <li><a href="https://albanotoska.com/bsbanners/bs-math-captcha-for-elementor-forms/">Demo (Features)</a></li>
     <li><a href="https://albanotoska.com/#contact">Contact Us</a></li>
+    <li><a href="https://wordpress.org/plugins/math-captcha-for-elementor-forms/">Plugin on Wordpress.org</a></li>
     <li><a href="https://wordpress.org/plugins/bs-banners/">My other plugin on Wordpress.org</a></li>
 </ul>
