@@ -1,6 +1,6 @@
 # Math-Captcha-for-Elementor
 
-=== Math Captcha for Elementor Forms  ===<br>
+=== Math Captcha for Elementor Forms Extended  ===<br>
 Contributors: albanotoska<br>
 Copyright (C) Albano Toska<br>
 Tags: wordpress plugin, captcha, math captcha, recaptcha, elementor, elementor forms, elementor page builder forms, elementor page builder, math captcha forms, math captcha forms for elementor, math captcha for elementor forms<br>
