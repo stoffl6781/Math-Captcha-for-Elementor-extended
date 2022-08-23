@@ -1,4 +1,4 @@
-# Math-Captcha-for-Elementor
+# Math-Captcha-for-Elementor-Extended
 
 === Math Captcha for Elementor Forms Extended  ===<br>
 Contributors: albanotoska<br>
