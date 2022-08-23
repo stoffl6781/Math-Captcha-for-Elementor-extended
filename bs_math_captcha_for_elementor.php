@@ -4,7 +4,7 @@
  * Plugin Name: Math Captcha for Elementor Forms extended
  * Description: Simple match captcha for Elementor Page Builder Forms
  * Plugin URI: https://albanotoska.com/bsbanners/bs-math-captcha-for-elementor-forms/
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: Albano Toska, Christoph Purin
  * Author URI: https://albanotoska.com/
  * License:     GPL2
@@ -23,14 +23,13 @@ function bs_match_captcha_for_elementor_forms_scripts_style()
     wp_register_style('maincss', plugin_dir_url(__FILE__) . '/assets/css/main.css');
     wp_enqueue_style('maincss');
 
-    $options = get_option( 'bs_math_captcha_for_elementor_class' );
+    $options = get_option('bs_math_captcha_for_elementor_class');
 
     $scriptData = array(
         'class' => $options,
     );
 
     wp_localize_script('mainjs', 'my_options', $scriptData);
-
 }
 add_action('wp_enqueue_scripts', 'bs_match_captcha_for_elementor_forms_scripts_style');
 
@@ -47,7 +46,7 @@ function bs_math_captcha_for_elementor_settings_register()
     register_setting('bs_math_captcha_option_value', 'bs_math_captcha_signs_multiply', 'myplugin_callback');
 
     // changed
-    add_option('bs_math_captcha_for_elementor_class', 'Class names');
+    add_option('bs_math_captcha_for_elementor_class', '');
     register_setting('bs_math_captcha_option_value', 'bs_math_captcha_for_elementor_class', 'myplugin_callback');
 }
 add_action('admin_init', 'bs_math_captcha_for_elementor_settings_register');

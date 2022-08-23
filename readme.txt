@@ -78,3 +78,5 @@ BS Math Captcha for Elementor Forms is a simple plugin that add a math captcha t
 = 1.1.0 =
 * Added the option to choose which math logic to use(+,-,*)
 * Small code cleanup
+= 1.2.1 =
+* Added class selector for Math
